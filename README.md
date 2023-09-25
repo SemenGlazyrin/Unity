@@ -27,29 +27,15 @@
 
 ## Задание 1
 ### аписать программу Hello World на C# с запуском на Unity. 
-![alt text](https://drive.google.com/file/d/1KMjbmm7PCXqBhjDIEbT9pd8z2jk-nNSt/view?usp=drive_link)
+![alt text](https://github.com/SemenGlazyrin/Unity/blob/main/1.png)
 
 ## Задание 2
 ### Написать программу Hello World на Python с запуском в Jupiter Notebook. 
-![alt text](https://drive.google.com/file/d/1gwAXl4Ls5XkgthVZAefgMkbfkVxPs5s4/view?usp=sharing)
+![alt text](https://github.com/SemenGlazyrin/Unity/blob/main/2.png)
 
 ## Задание 3
 ### Оформить отчет в виде документации на github 
-
+![alt text](https://github.com/SemenGlazyrin/Unity/blob/main/3.png)
 
 ## Выводы
-
-Абзац умных слов о том, что было сделано и что было узнано.
-
-| Plugin | README |
-| ------ | ------ |
-| Dropbox | [plugins/dropbox/README.md][PlDb] |
-| GitHub | [plugins/github/README.md][PlGh] |
-| Google Drive | [plugins/googledrive/README.md][PlGd] |
-| OneDrive | [plugins/onedrive/README.md][PlOd] |
-| Medium | [plugins/medium/README.md][PlMe] |
-| Google Analytics | [plugins/googleanalytics/README.md][PlGa] |
-
-## Powered by
-
-**BigDigital Team: Denisov | Fadeev | Panov**
+Были установлены такие программы, как Unity и Anaconda. Также в этих программах в консоль была выведена фраза "Hello World!".
