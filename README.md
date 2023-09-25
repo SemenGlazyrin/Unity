@@ -20,11 +20,6 @@
 ## Цель работы
 Установить необходимы для работы софт и вывести "Hello world!"
 
-## Ход работы
-1)Написать программу Hello World на C# с запуском на Unity. 
-2)Написать программу Hello World на Python с запуском в Jupiter Notebook. 
-3)Оформить отчет в виде документации на github 
-
 ## Задание 1
 ### аписать программу Hello World на C# с запуском на Unity. 
 ![alt text](https://github.com/SemenGlazyrin/Unity/blob/main/1.png)
