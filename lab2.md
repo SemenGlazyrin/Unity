@@ -24,7 +24,7 @@
 Была выбрана игра Stardew Valley.
 ### Концепт игры:
 "Stardew Valley" — это симулятор фермерской жизни, где игрок управляет фермой, ведёт сельское хозяйство, общается с персонажами и исследует мир.
-..картинка
+![alt text](https://github.com/SemenGlazyrin/Unity/blob/0c28e26752d6b872e3132bb48585027f366a6264/screens/lab2/StardewValley.jpg)
 
 ### Игровая переменная:
 Здоровье персонажа
@@ -41,27 +41,25 @@
 ## Задание 2
 ### С помощью скрипта на языке Python заполните google-таблицу данными, описывающими выбранную игровую переменную в выбранной игре
 - Google-таблица была заполнена данными представляющими собой изменение здоровья с каждым днем
-..картинка1
-..картинка2
+![alt text](https://github.com/SemenGlazyrin/Unity/blob/0c28e26752d6b872e3132bb48585027f366a6264/screens/lab2/python.png)
+![alt text](https://github.com/SemenGlazyrin/Unity/blob/0c28e26752d6b872e3132bb48585027f366a6264/screens/lab2/graph.png)
 
 - Был создан Service account в Google Cloud 
-..картинка3
+![alt text](https://github.com/SemenGlazyrin/Unity/blob/0c28e26752d6b872e3132bb48585027f366a6264/screens/lab2/serviceAccauntSettings.png)
 
 - И ему был дан доступ на редактирование гугл таблицы
-..картинка4
+![alt text](https://github.com/SemenGlazyrin/Unity/blob/0c28e26752d6b872e3132bb48585027f366a6264/screens/lab2/serviceAccaunt.png)
 
 - Был создан Api ключ, для получения данных из таблицы и обработки их в Unity
-..картинка5
-
-![alt text](https://github.com/SemenGlazyrin/Unity/скрины/lab1/main/2.png)
+![alt text](https://github.com/SemenGlazyrin/Unity/blob/0c28e26752d6b872e3132bb48585027f366a6264/screens/lab2/api.png)
 
 ## Задание 3
 ### Настройте на сцене Unity воспроизведение звуковых файлов, описывающих динамику изменения выбранной переменной. Например, если выбрано здоровье главного персонажа вы можете выводить сообщения, связанные с его состоянием.
 - Был написан код, который воспроизводит различные звуки в зависимости от здоровья игрока
-..картинка 6
+![alt text](https://github.com/SemenGlazyrin/Unity/blob/0c28e26752d6b872e3132bb48585027f366a6264/screens/lab2/sounds.png)
 
-- Создадим пустой 3Д обьект, добавим ему Audio Sourse, чтобы обьект мог воспроизводит звуковые файлы, и добавим ему эти файлы
-..картинка7
+- Создаем пустой 3Д обьект, добавляем ему Audio Sourse, чтобы обьект мог воспроизводит звуковые файлы, и добавим ему эти файлы
+![alt text](https://github.com/SemenGlazyrin/Unity/blob/0c28e26752d6b872e3132bb48585027f366a6264/screens/lab2/empty.png)
 
 - Запустим наш проект и увидим в консоли, что все звуковые файлы воспроизводится в соответсвие с таблицей Google Sheets
 
@@ -69,9 +67,9 @@
 - \>= 70, то воспроизводится файл Horosho, 
 - \> 40 и < 70, то воспроизводится файл Sredne, 
 - <= 40, то воспроизводится файл Ploho.
-..картинка9
+![alt text](https://github.com/SemenGlazyrin/Unity/blob/0c28e26752d6b872e3132bb48585027f366a6264/screens/lab2/DebugLog.png)
 
-![alt text](https://github.com/SemenGlazyrin/Unity/скрины/lab1/main/3.png)
+
 
 ## Выводы
 - Описал игровую переменную, её роль, условия изменения
