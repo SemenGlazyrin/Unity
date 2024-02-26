@@ -53,6 +53,92 @@ https://github.com/SemenGlazyrin/DragonWith10Levels
 - В Jupyter Notebook напишем код для подключения к гугл таблице
 - Заполним и визуализируем её
 
+```py
+import numpy as np
+import time
+import gspread
+import matplotlib.pyplot as plot
+
+gc = gspread.service_account(filename='marine-defender-408211-2136c6471e80.json')
+sh = gc.open("Game")
+
+time.sleep(10)
+
+speed = 4
+time_between_egg_drops = 2
+left_right_distance = 10
+chance_direction = 0.01
+
+list = []
+list_of_speed = []
+list_of_time = []
+list_of_distance = []
+list_of_chance = []
+
+n = [i for i in range(1, 12)]
+
+for i in range(11):
+    sh.sheet1.update(('A' + str(i + 2)), i + 1)
+    sh.sheet1.update(('B' + str(i + 2)), speed)
+    sh.sheet1.update(('C' + str(i + 2)), time_between_egg_drops)
+    sh.sheet1.update(('D' + str(i + 2)), left_right_distance)
+    sh.sheet1.update(('E' + str(i + 2)), chance_direction)
+    
+    list.append([speed, time_between_egg_drops, left_right_distance, chance_direction])
+    list_of_speed.append(speed)
+    list_of_time.append(time_between_egg_drops)
+    list_of_distance.append(left_right_distance)
+    list_of_chance.append(chance_direction)
+    
+    speed += 3
+    time_between_egg_drops -= 0.16
+    left_right_distance += 2
+    chance_direction += 0.001
+
+plot.title('Скорость дракона', fontsize = 20)
+plot.plot(n, list_of_speed)
+
+plot.xlabel("Уровень")
+plot.xticks(n)
+plot.show()
+
+plot.title('Время между сбрасыванием яиц', fontsize = 20)
+plot.plot(n, list_of_time)
+
+plot.xlabel("Уровень")
+plot.xticks(n)
+plot.show()
+
+plot.title('Диапазон движения дракона', fontsize = 20)
+plot.plot(n, list_of_distance)
+
+plot.xlabel("Уровень")
+plot.xticks(n)
+plot.show()
+
+plot.title('Вероятность поменять направление', fontsize = 20)
+plot.plot(n, list_of_chance)
+
+plot.xlabel("Уровень")
+plot.xticks(n)
+plot.show()
+
+bw = 0.2
+index = np.arange(1, 12)
+
+plot.title('Динамика изменений уровней сложности', fontsize = 20)
+
+plot.bar(index, list_of_time, bw, color = 'b')
+plot.bar(index + bw, list_of_speed, bw, color = 'g')
+plot.bar(index + 2 * bw, list_of_distance, bw, color = 'r')
+plot.bar(index + 3 * bw, list_of_chance, bw, color = 'yellow')
+
+plot.xticks(index + 1.5 * bw, np.arange(1, 12))
+plot.xlabel("Уровень")
+
+plot.show()
+```
+
 - скрины
 ## Выводы
-Были установлены такие программы, как Unity и Anaconda. Также в этих программах в консоль была выведена фраза "Hello World!".
+Изучил прототип игры, выявил переменные, которые меняются. Создал таблицу, отражающую динамику изменений уровней сложности игры. Настроил оптимальный баланс для десяти уровней в игре "Dragon Picker".
