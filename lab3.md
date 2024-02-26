@@ -140,6 +140,7 @@ plot.show()
 ```
 
 Графики:
+
 ![Image alt](https://github.com/SemenGlazyrin/Unity/blob/480ddeb396ea80cb368ec026bdc7b13b9f53f6b2/screens/lab3/changeDir.png)
 ![Image alt](https://github.com/SemenGlazyrin/Unity/blob/480ddeb396ea80cb368ec026bdc7b13b9f53f6b2/screens/lab3/dir.png)
 ![Image alt](https://github.com/SemenGlazyrin/Unity/blob/480ddeb396ea80cb368ec026bdc7b13b9f53f6b2/screens/lab3/speed.png)
