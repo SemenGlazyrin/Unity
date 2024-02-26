@@ -37,7 +37,7 @@
 - Уменьшить время между сбрасыванием яиц
 
 
-- скрин
+![Image alt](https://github.com/SemenGlazyrin/Unity/blob/4f59bcb7339f4af731d10254e3ca8d846713709f/screens/lab3/tabl.png)
 https://docs.google.com/spreadsheets/d/1Hhs_GSceKCQYnqOy_on-FshoKJPP8UZ_4XC4_JgYafY/edit?usp=sharing
 
 ## Задание 2
