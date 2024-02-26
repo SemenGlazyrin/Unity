@@ -22,15 +22,15 @@
 
 ## Задание 1
 ### аписать программу Hello World на C# с запуском на Unity. 
-![alt text](https://github.com/SemenGlazyrin/Unity/скрины/lab1/1.png)
+![alt text](https://github.com/SemenGlazyrin/Unity/blob/fcc72b97ee2d8c06d25ac49a1df290f99c9f7a90/screens/lab1/1.png)
 
 ## Задание 2
 ### Написать программу Hello World на Python с запуском в Jupiter Notebook. 
-![alt text](https://github.com/SemenGlazyrin/Unity/скрины/lab1/main/2.png)
+![alt text](https://github.com/SemenGlazyrin/Unity/скрины/lab1/2.png)
 
 ## Задание 3
 ### Оформить отчет в виде документации на github 
-![alt text](https://github.com/SemenGlazyrin/Unity/скрины/lab1/main/3.png)
+![alt text](https://github.com/SemenGlazyrin/Unity/скрины/lab1/3.png)
 
 ## Выводы
 Были установлены такие программы, как Unity и Anaconda. Также в этих программах в консоль была выведена фраза "Hello World!".
