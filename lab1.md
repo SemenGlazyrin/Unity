@@ -26,11 +26,11 @@
 
 ## Задание 2
 ### Написать программу Hello World на Python с запуском в Jupiter Notebook. 
-![alt text](https://github.com/SemenGlazyrin/Unity/скрины/lab1/2.png)
+![alt text](https://github.com/SemenGlazyrin/Unity/blob/b875ab209cf0e1ed307d619b153affbdb18d0d22/screens/lab1/2.png)
 
 ## Задание 3
 ### Оформить отчет в виде документации на github 
-![alt text](https://github.com/SemenGlazyrin/Unity/скрины/lab1/3.png)
+![alt text](https://github.com/SemenGlazyrin/Unity/blob/b875ab209cf0e1ed307d619b153affbdb18d0d22/screens/lab1/3.png)
 
 ## Выводы
 Были установлены такие программы, как Unity и Anaconda. Также в этих программах в консоль была выведена фраза "Hello World!".
