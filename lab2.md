@@ -42,7 +42,7 @@
 ### С помощью скрипта на языке Python заполните google-таблицу данными, описывающими выбранную игровую переменную в выбранной игре
 - Google-таблица была заполнена данными представляющими собой изменение здоровья с каждым днем
 ![alt text](https://github.com/SemenGlazyrin/Unity/blob/0c28e26752d6b872e3132bb48585027f366a6264/screens/lab2/python.png)
-![alt text](https://github.com/SemenGlazyrin/Unity/blob/0c28e26752d6b872e3132bb48585027f366a6264/screens/lab2/graph.png)
+..![alt text](https://github.com/SemenGlazyrin/Unity/blob/0c28e26752d6b872e3132bb48585027f366a6264/screens/lab2/graph.png)
 
 - Был создан Service account в Google Cloud 
 ![alt text](https://github.com/SemenGlazyrin/Unity/blob/0c28e26752d6b872e3132bb48585027f366a6264/screens/lab2/serviceAccauntSettings.png)
