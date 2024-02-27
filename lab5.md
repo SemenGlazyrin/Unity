@@ -25,28 +25,24 @@
 
 Ход работы:
 - Создаем новый 3Д проект в Unity и добавляем туда ML агента из данных файлов
-..emptyProject
+![Image alt](https://github.com/SemenGlazyrin/Unity/blob/62abfcef5c38c9be08f3275c06bd282b31b60d64/screens/lab5/emptyProject.png)
 
 - Запускаем Anaconda Prompt
 
 - Создаем ML-агента и устанавливаем библиотеки mlagents 0.28.0 и torch 1.7.1
-..createMlAgent
-..installMlAgent
-..installTorch
+![Image alt](https://github.com/SemenGlazyrin/Unity/blob/62abfcef5c38c9be08f3275c06bd282b31b60d64/screens/lab5/%D1%81reateMlAgent.png)
+![Image alt](https://github.com/SemenGlazyrin/Unity/blob/62abfcef5c38c9be08f3275c06bd282b31b60d64/screens/lab5/instalMlAgents.png)
+![Image alt](https://github.com/SemenGlazyrin/Unity/blob/62abfcef5c38c9be08f3275c06bd282b31b60d64/screens/lab5/installTorch.png)
 
 - В Unity создаем плоскость, куб и сферу. Также берем предложенный скрипт и подключаем его к сфере
-..RollerAgent
+![Image alt](https://github.com/SemenGlazyrin/Unity/blob/62abfcef5c38c9be08f3275c06bd282b31b60d64/screens/lab5/RollerAgent.png)
 
 - Также к сфере добавляем компоненты Rigidbody, Decision Requester, Behavior Parameters и настроим их так, как показано в примере
-..MoreComponents
+![Image alt](https://github.com/SemenGlazyrin/Unity/blob/62abfcef5c38c9be08f3275c06bd282b31b60d64/screens/lab5/MoreComponents.png)
 
 - В корень проекта добавляем yaml конфиг для нейронной сети и запускаем работу ml-агента
-..YamlConfig
 
-- Теперь создадим 3, 9 и 27 таких площадок и понаблюдаем за результатом
-3 шарика - https://youtu.be/xQJQ32l8YmE
-9 шариков - https://youtu.be/qxotu2PofxU
-27 шариков - https://youtu.be/pQxL_egoXQI
+![Image alt](https://github.com/SemenGlazyrin/Unity/blob/62abfcef5c38c9be08f3275c06bd282b31b60d64/screens/lab5/YamlConfig.png)
 
 Выводы:
 Проанализировав процесс обучения модели при использовании разного количества площадок, можно прийти к выводу, что увеличение числа копий способствует расширению возможностей модели для изучения большего количества вариантов за единицу времени, что, в свою очередь, ускоряет процесс обучения и повышает эффективность. Однако, несмотря на это, эффективность обучения модели непостоянна, важно определить, сколько времени потребуется для обучения модели при использовании 1, 3, 9 и 27 копий-площадок.
@@ -57,42 +53,51 @@
 Ход работы:
 
 - Скачиваем Unity ML-Agent_EconomicModel и запускаем проект Unity
-..Economy
+
+![Image alt](https://github.com/SemenGlazyrin/Unity/blob/62abfcef5c38c9be08f3275c06bd282b31b60d64/screens/lab5/economy.png)
 
 - Изучаем проект.Как можно заметить, тут на сфере такие же компоненты, как и в практическом задании 1
-..EconomyScripts
+
+![Image alt](https://github.com/SemenGlazyrin/Unity/blob/62abfcef5c38c9be08f3275c06bd282b31b60d64/screens/lab5/EconomyScripts.png)
 
 - Создаем Нового ml-агента и его виртуальное пространство
-..EconomyAgent
+
+![Image alt](https://github.com/SemenGlazyrin/Unity/blob/62abfcef5c38c9be08f3275c06bd282b31b60d64/screens/lab5/EconomyAgent.png)
 
 - Запускаем и смотрим на процесс обучения
-..economyTest
+
+![Image alt](https://github.com/SemenGlazyrin/Unity/blob/62abfcef5c38c9be08f3275c06bd282b31b60d64/screens/lab5/EconomyTest.png)
 
 - Посмотрим в консоли результаты обучения, которые сохраняются в файле results
-..results
+
+![Image alt](https://github.com/SemenGlazyrin/Unity/blob/62abfcef5c38c9be08f3275c06bd282b31b60d64/screens/lab5/results.png)
+
 Выводы: каждые 2000 шагов происходит удачная итерация,
 на 110000 и 115000 итерация удачная, но Mean Rewards = -1.000
 
 - Устанавливаем tensorflow
-..tensorflow
+
+![Image alt](https://github.com/SemenGlazyrin/Unity/blob/62abfcef5c38c9be08f3275c06bd282b31b60d64/screens/lab5/tensorflow.png)
 
 - создае графики на локальном сервере с помощью специальной команды
-..graph
+
+![Image alt](https://github.com/SemenGlazyrin/Unity/blob/62abfcef5c38c9be08f3275c06bd282b31b60d64/screens/lab5/graph.png)
 
 ## Задание 1
-Найдите внутри C# скрипта “коэффициент корреляции ” и сделать выводы о том, как он влияет на обучение модели.
+Найдите внутри C# скрипта “коэффициент корреляции” и сделать выводы о том, как он влияет на обучение модели.
 
-коэффициент корреляции в скрипте RolletAgent
-..koeff
+коэффициент корреляции в C# скрипте
+
+![Image alt](https://github.com/SemenGlazyrin/Unity/blob/62abfcef5c38c9be08f3275c06bd282b31b60d64/screens/lab5/koeff.png)
 
 - при коэффиценте корреляции равным 1.42, причем идеальным, так как средня награда всегда равна 1.000 и стандартное отклонение всегда равно 0, а эло начинается с 1200+ и увеличивается буквально на 0.032 эло примерно
-..
+![Image alt](https://github.com/SemenGlazyrin/Unity/blob/62abfcef5c38c9be08f3275c06bd282b31b60d64/screens/lab5/results.png)
 
 - при коэффиценте корреляции равным 5.0, средня награда всегда в диапазоне 0.75+ и до 1.0 и в среднем стандартное отклонение равно 0.512, а эло начинается около 1200 и немного уменьшается, но не слишком быстро
-..
+..![Image alt]()
 
 - при коэффиценте корреляции равным 10.0,средня награда уже значительно меньше, может быть равна 0.188(мин. зн.) и в среднем стандартное отклонение равно 0.8546, а эло начинается около 1200, также уменьшается, но немного быстрее
-..
+..![Image alt]()
 
 Вывод:  коэффицент корреляции отвечает за точность обучения, также чем он меньше, тем дольше происходит обучение
 
@@ -102,26 +107,30 @@
 network_settings:
 - normalize: Показывает, нужно ли нормализировать входные данные.(true, false)
 normalize = true
-..Console
-..graph1
-..graph2
+
+![Image alt](https://github.com/SemenGlazyrin/Unity/blob/62abfcef5c38c9be08f3275c06bd282b31b60d64/screens/lab5/normalize/Console.png)
+![Image alt](https://github.com/SemenGlazyrin/Unity/blob/62abfcef5c38c9be08f3275c06bd282b31b60d64/screens/lab5/normalize/graph1.png)
+![Image alt](https://github.com/SemenGlazyrin/Unity/blob/62abfcef5c38c9be08f3275c06bd282b31b60d64/screens/lab5/normalize/graph2.png)
 
 Вывод:
 Скачет ошибка обучения, которая в процессе уменьшается.
 Дополнительные вознаграждения сначала растут, достигают максимума и уменьшаются.
 Оценка внешней ценности стабильна, но на низком уровне в сравнение со стартовыми настройками, где ценность повышается со временем.
 Энтропия стабильно растет.
+
 - hidden_units: (по умолчанию = 128)
 Количество узлов в скрытых слоях нейронной сети. То есть каждый скрытый слой нейронной сети имеет такое количество узлов. Если задача простая. то необходимости в большем количестве узлов в каждом слое нейронной сети не требуется.(32 - 512)
 hidden_units = 32
-..Console
-..graph1
-..graph2
+
+![Image alt](https://github.com/SemenGlazyrin/Unity/blob/62abfcef5c38c9be08f3275c06bd282b31b60d64/screens/lab5/hiddenUnits/Console.png)
+![Image alt](https://github.com/SemenGlazyrin/Unity/blob/62abfcef5c38c9be08f3275c06bd282b31b60d64/screens/lab5/hiddenUnits/graph1.png)
+![Image alt](https://github.com/SemenGlazyrin/Unity/blob/62abfcef5c38c9be08f3275c06bd282b31b60d64/screens/lab5/hiddenUnits/graph2.png)
 
 hidden_units = 512
-..Console512
-..graph512_1
-..graph512_2
+
+![Image alt](https://github.com/SemenGlazyrin/Unity/blob/62abfcef5c38c9be08f3275c06bd282b31b60d64/screens/lab5/hiddenUnits/Console512.png)
+![Image alt](https://github.com/SemenGlazyrin/Unity/blob/62abfcef5c38c9be08f3275c06bd282b31b60d64/screens/lab5/hiddenUnits/Graph512_1.png)
+![Image alt](https://github.com/SemenGlazyrin/Unity/blob/62abfcef5c38c9be08f3275c06bd282b31b60d64/screens/lab5/hiddenUnits/Graph512_2.png)
 
 Вывод:
 Из-за сужения количества узлов в каждом скрытом слое до 32, обучение стало более быстрым, но при этом точность страдает. Наблюдается значительные колебания в ошибке обучения (Value Loss), что делает процесс обучения менее стабильным. Графики по большей части схожи. Однако, использование 512 узлов в скрытом слое существенно увеличивает время обучения. На 20000 эпохе мы получаем среднюю награду (Mean Rewards) равную -1. Оценка внешней ценности (Extrinsic value estimate) начинает уменьшаться с 20000, в отличие от ситуации с hidden_units = 32.
@@ -130,14 +139,16 @@ num_layers: (по умолчанию = 2)
 Количество скрытых слоев в нейронной сети. Для простых задач нет необходимости большого количества скрытых слоев - это может быть неэффективно и долго по времени.(1-3)
 
 num_layers = 1
-..console
-..graph1
-..graph2
+
+![Image alt](https://github.com/SemenGlazyrin/Unity/blob/62abfcef5c38c9be08f3275c06bd282b31b60d64/screens/lab5/numLayers/Console.png)
+![Image alt](https://github.com/SemenGlazyrin/Unity/blob/62abfcef5c38c9be08f3275c06bd282b31b60d64/screens/lab5/numLayers/Graph1.png)
+![Image alt](https://github.com/SemenGlazyrin/Unity/blob/62abfcef5c38c9be08f3275c06bd282b31b60d64/screens/lab5/numLayers/graph2.png)
 
 num_layers = 3
-..console3
-..graph3_1
-..graph3_2
+
+![Image alt](https://github.com/SemenGlazyrin/Unity/blob/62abfcef5c38c9be08f3275c06bd282b31b60d64/screens/lab5/numLayers/Console3.png)
+![Image alt](https://github.com/SemenGlazyrin/Unity/blob/62abfcef5c38c9be08f3275c06bd282b31b60d64/screens/lab5/numLayers/Graph3_1.png)
+![Image alt](https://github.com/SemenGlazyrin/Unity/blob/62abfcef5c38c9be08f3275c06bd282b31b60d64/screens/lab5/numLayers/Graph3_2.png)
 
 Вывод:
 Поскольку у нас только один скрытый слой, в начале обучения значение ошибки будет максимальным, однако, по мере обучения, ошибка будет стремиться к нулю. Время обучения немного уменьшилось. Точность немного ухудшилась, из-за чего на 20000 шаге мы получаем среднюю награду (mean rewards) < 0. Графики в целом похожи. При num_layers = 3 значительно увеличивается время обучения, при этом стандартное отклонение в среднем выше, чем при num_layers = 1. Дополнительные вознаграждения (Extrinsic Rewards) неустойчивы.
