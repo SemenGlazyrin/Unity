@@ -97,7 +97,7 @@
 ![Image alt](https://github.com/SemenGlazyrin/Unity/blob/7101cbc65e832c426dab1fe3baebb0915384b21a/screens/lab5/5koef.png)
 
 - при коэффиценте корреляции равным 10.0,средня награда уже значительно меньше, может быть равна 0.188(мин. зн.) и в среднем стандартное отклонение равно 0.8546, а эло начинается около 1200, также уменьшается, но немного быстрее
-![Image alt](https://github.com/SemenGlazyrin/Unity/blob/7101cbc65e832c426dab1fe3baebb0915384b21a/screens/lab5/koef10.png)
+![Image alt](https://github.com/SemenGlazyrin/Unity/blob/9a4adbb2ded2b194c4adb67675f03fc53e88f87a/screens/lab5/koef10.png)
 
 Вывод:  коэффицент корреляции отвечает за точность обучения, также чем он меньше, тем дольше происходит обучение
 
