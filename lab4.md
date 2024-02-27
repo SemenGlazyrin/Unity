@@ -36,51 +36,51 @@
 OR:
 После проведения тестов, выяснилось, что для обучения перцептрона с безошибочными ответами достаточно 5-6 эпох
 1 эпоха:
-- ![Image alt](https://github.com/SemenGlazyrin/Unity/blob/a7072130d5135d8de1a0321ff4d8a75fab564130/screens/lab4/1/or.png)
+![Image alt](https://github.com/SemenGlazyrin/Unity/blob/a7072130d5135d8de1a0321ff4d8a75fab564130/screens/lab4/1/or.png)
 
 5 эпох:
-- ![Image alt](https://github.com/SemenGlazyrin/Unity/blob/a7072130d5135d8de1a0321ff4d8a75fab564130/screens/lab4/5/or.png)
+![Image alt](https://github.com/SemenGlazyrin/Unity/blob/a7072130d5135d8de1a0321ff4d8a75fab564130/screens/lab4/5/or.png)
 
 8 эпох:
-- ![Image alt](https://github.com/SemenGlazyrin/Unity/blob/a7072130d5135d8de1a0321ff4d8a75fab564130/screens/lab4/8/or.png)
+![Image alt](https://github.com/SemenGlazyrin/Unity/blob/a7072130d5135d8de1a0321ff4d8a75fab564130/screens/lab4/8/or.png)
 
 AND:
 После проведения тестов, выяснилось, что для обучения перцептрона с безошибочными ответами достаточно 7-8 эпох
 1 эпоха:
-- ![Image alt](https://github.com/SemenGlazyrin/Unity/blob/a7072130d5135d8de1a0321ff4d8a75fab564130/screens/lab4/1/and.png)
+![Image alt](https://github.com/SemenGlazyrin/Unity/blob/a7072130d5135d8de1a0321ff4d8a75fab564130/screens/lab4/1/and.png)
 
 5 эпох:
-- ![Image alt](https://github.com/SemenGlazyrin/Unity/blob/a7072130d5135d8de1a0321ff4d8a75fab564130/screens/lab4/5/and.png)
+![Image alt](https://github.com/SemenGlazyrin/Unity/blob/a7072130d5135d8de1a0321ff4d8a75fab564130/screens/lab4/5/and.png)
 
 8 эпох:
-- ![Image alt](https://github.com/SemenGlazyrin/Unity/blob/a7072130d5135d8de1a0321ff4d8a75fab564130/screens/lab4/8/and.png)
+![Image alt](https://github.com/SemenGlazyrin/Unity/blob/a7072130d5135d8de1a0321ff4d8a75fab564130/screens/lab4/8/and.png)
 
 NAND:
 После проведения тестов, выяснилось, что для обучения перцептрона с безошибочными ответами достаточно 7-8 эпох
 1 эпоха:
-- ![Image alt](https://github.com/SemenGlazyrin/Unity/blob/a7072130d5135d8de1a0321ff4d8a75fab564130/screens/lab4/1/nand.png)
+![Image alt](https://github.com/SemenGlazyrin/Unity/blob/a7072130d5135d8de1a0321ff4d8a75fab564130/screens/lab4/1/nand.png)
 
 5 эпох:
-- ![Image alt](https://github.com/SemenGlazyrin/Unity/blob/a7072130d5135d8de1a0321ff4d8a75fab564130/screens/lab4/5/nand.png)
+![Image alt](https://github.com/SemenGlazyrin/Unity/blob/a7072130d5135d8de1a0321ff4d8a75fab564130/screens/lab4/5/nand.png)
 
 8 эпох:
-- ![Image alt](https://github.com/SemenGlazyrin/Unity/blob/a7072130d5135d8de1a0321ff4d8a75fab564130/screens/lab4/8/nand.png)
+![Image alt](https://github.com/SemenGlazyrin/Unity/blob/a7072130d5135d8de1a0321ff4d8a75fab564130/screens/lab4/8/nand.png)
 
 XOR:
 Т.к. перцептрон работает только с линейными функциями, а ХОR - не линейная функция, то это означет, что сколько бы эпох мы не ставили, он не будет выводит правильные результаты тестов
 1 эпоха:
-- ![Image alt](https://github.com/SemenGlazyrin/Unity/blob/a7072130d5135d8de1a0321ff4d8a75fab564130/screens/lab4/1/xor.png)
+![Image alt](https://github.com/SemenGlazyrin/Unity/blob/a7072130d5135d8de1a0321ff4d8a75fab564130/screens/lab4/1/xor.png)
 
 5 эпох:
-- ![Image alt](https://github.com/SemenGlazyrin/Unity/blob/a7072130d5135d8de1a0321ff4d8a75fab564130/screens/lab4/5/xor.png)
+![Image alt](https://github.com/SemenGlazyrin/Unity/blob/a7072130d5135d8de1a0321ff4d8a75fab564130/screens/lab4/5/xor.png)
 
 8 эпох:
-- ![Image alt](https://github.com/SemenGlazyrin/Unity/blob/a7072130d5135d8de1a0321ff4d8a75fab564130/screens/lab4/8/xor.png)
+![Image alt](https://github.com/SemenGlazyrin/Unity/blob/a7072130d5135d8de1a0321ff4d8a75fab564130/screens/lab4/8/xor.png)
 
 ## Задание 2
 ### Построить графики зависимости количества эпох от ошибки обучения. Указать от чего зависит необходимое количество эпох обучения.
 Количество необходимых эпох обучения зависит от весов и смещения. Также важное значение придается ошибке обучения, т.е. необходимо подобрать оптимальное число эпох для минимизации ошибки, что позволит перцептрону завершить обучение успешно.
-- ![Image alt](https://github.com/SemenGlazyrin/Unity/blob/a7072130d5135d8de1a0321ff4d8a75fab564130/screens/lab4/tabl.png)
+![Image alt](https://github.com/SemenGlazyrin/Unity/blob/a7072130d5135d8de1a0321ff4d8a75fab564130/screens/lab4/tabl.png)
 
 Вывод:
 - При решении операции XOR среднее увеличивается с каждой эпохой, достигает максимума и остаётся неизменной.
